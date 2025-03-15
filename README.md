@@ -9,8 +9,23 @@ Just clone this project as your abstract POM base and then, use it as the parent
   <parent>
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <relativePath/>
   </parent>
 ```
-
+If you get it from jitpack, just use:
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+```xml
+<dependency>
+    <groupId>com.github.syampillai</groupId>
+    <artifactId>SOpom21</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
