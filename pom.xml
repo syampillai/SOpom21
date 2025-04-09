@@ -19,12 +19,12 @@
         <maven-shade-plugin-version>3.6.0</maven-shade-plugin-version>
         <maven-dependency-plugin-version>3.8.1</maven-dependency-plugin-version>
         <jackson-version>2.18.2</jackson-version>
-        <batik-version>2.18</batik-version>
+        <batik-version>1.18</batik-version>
     </properties>
 
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom21</artifactId>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <packaging>pom</packaging>
 
     <build>
