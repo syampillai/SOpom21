@@ -20,11 +20,14 @@
         <maven-dependency-plugin-version>3.8.1</maven-dependency-plugin-version>
         <jackson-version>2.18.2</jackson-version>
         <batik-version>1.18</batik-version>
+        <commons-text-version>1.13.0</commons-text-version>
+        <commons-io-version>2.18.0</commons-io-version>
+        <commons-lang3-version>3.17.0</commons-lang3-version>
     </properties>
 
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom21</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <packaging>pom</packaging>
 
     <build>
