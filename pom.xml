@@ -24,8 +24,8 @@
         <commons-io-version>2.18.0</commons-io-version>
         <commons-lang3-version>3.17.0</commons-lang3-version>
         <commons-compress-version>1.27.1</commons-compress-version>
-        <commons-codec>1.18.0</commons-codec>
-        <commons-collections4>4.5.0-M3</commons-collections4>
+        <commons-codec-version>1.18.0</commons-codec-version>
+        <commons-collections4-version>4.5.0-M3</commons-collections4-version>
         <commons-fileupload2-version>2.0.0-M1</commons-fileupload2-version>
         <commons-logging-version>1.3.5</commons-logging-version>
         <commons-math3-version>3.6.1</commons-math3-version>
@@ -33,7 +33,7 @@
 
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom21</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.8</version>
     <packaging>pom</packaging>
 
     <build>
