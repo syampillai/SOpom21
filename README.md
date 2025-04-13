@@ -7,8 +7,8 @@ It defines a set of properties that can be directly inherited into your POM file
 Just use this as the parent POM like:
 ```xml
   <parent>
-    <groupId>com.storedobject</groupId>
-    <artifactId>so-pom</artifactId>
+    <groupId>com.github.syampillai</groupId>
+    <artifactId>SOpom21</artifactId>
     <version>1.1.1</version>
     <relativePath/>
   </parent>
