@@ -13,7 +13,7 @@ Just use this as the parent POM like:
     <relativePath/>
   </parent>
 ```
-Available at jitpack, include it in your repositories' definition:
+Available at jitpack, include it in your repositories section:
 ```xml
 <repositories>
     <repository>
