@@ -9,7 +9,7 @@ Just use this as the parent POM like:
   <parent>
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom</artifactId>
-    <version>1.0.9</version>
+    <version>1.1.0</version>
     <relativePath/>
   </parent>
 ```
