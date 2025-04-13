@@ -9,7 +9,7 @@ Just use this as the parent POM like:
   <parent>
     <groupId>com.github.syampillai</groupId>
     <artifactId>SOpom21</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <relativePath/>
   </parent>
 ```
