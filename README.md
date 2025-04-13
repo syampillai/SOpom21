@@ -4,7 +4,7 @@
 This doesn't include any jar dependencies but this can be used as a parent POM in your Java 21 projects.  
 It defines a set of properties that can be directly inherited into your POM file.  
 
-Just clone this project as your abstract POM base and then, use it as the parent POM like:
+Just use this as the parent POM like:
 ```xml
   <parent>
     <groupId>com.storedobject</groupId>
@@ -13,7 +13,7 @@ Just clone this project as your abstract POM base and then, use it as the parent
     <relativePath/>
   </parent>
 ```
-If you get it from jitpack, just use:
+Available at jitpack, include it in your repositories' definition:
 ```xml
 <repositories>
     <repository>
@@ -21,11 +21,4 @@ If you get it from jitpack, just use:
         <url>https://jitpack.io</url>
     </repository>
 </repositories>
-```
-```xml
-<dependency>
-    <groupId>com.github.syampillai</groupId>
-    <artifactId>SOpom21</artifactId>
-    <version>1.0.9</version>
-</dependency>
 ```
