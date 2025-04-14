@@ -4,21 +4,12 @@
 This doesn't include any jar dependencies but this can be used as a parent POM in your Java 21 projects.  
 It defines a set of properties that can be directly inherited into your POM file.  
 
-Just use this as the parent POM like:
+Just use this as the parent POM like (available at maven):
 ```xml
   <parent>
-    <groupId>com.github.syampillai</groupId>
-    <artifactId>SOpom21</artifactId>
+    <groupId>com.storedobject</groupId>
+    <artifactId>so-pom21</artifactId>
     <version>1.1.2</version>
     <relativePath/>
   </parent>
-```
-Available at jitpack, include it in your repositories section:
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
 ```
