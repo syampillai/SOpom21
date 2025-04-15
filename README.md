@@ -9,16 +9,16 @@ Just use this as the parent POM like:
   <parent>
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom21</artifactId>
-    <version>1.1.3</version>
+    <version>1.1.5</version>
     <relativePath/>
   </parent>
 ```
 Make sure that you have included this in your POM:
 ```xml
-  <pluginRepositories>
-    <pluginRepository>
+  <repositories>
+    <repository>
         <id>so-maven</id>
         <url>https://storedobject.com/maven</url>
-    </pluginRepository>
-</pluginRepositories>
+    </repository>
+</repositories>
 ```

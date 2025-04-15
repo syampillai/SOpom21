@@ -37,7 +37,7 @@
     <artifactId>so-pom21</artifactId>
     <name>SO POM (Java 21)</name>
     <description>Parent POM for projects targeting Java 21</description>
-    <version>1.1.3</version>
+    <version>1.1.5</version>
     <packaging>pom</packaging>
 
     <licenses>
@@ -55,6 +55,13 @@
             <email>syam.s.pillai@gmail.com</email>
         </developer>
     </developers>
+
+    <repositories>
+        <repository>
+            <id>so-maven</id>
+            <url>https://storedobject.com/maven</url>
+        </repository>
+    </repositories>
 
     <build>
         <pluginManagement>
