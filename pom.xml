@@ -18,15 +18,15 @@
         <maven-assembly-plugin-version>3.7.1</maven-assembly-plugin-version>
         <maven-shade-plugin-version>3.6.0</maven-shade-plugin-version>
         <maven-dependency-plugin-version>3.8.1</maven-dependency-plugin-version>
-        <jackson-version>2.18.2</jackson-version>
-        <batik-version>1.18</batik-version>
-        <commons-text-version>1.13.0</commons-text-version>
-        <commons-io-version>2.18.0</commons-io-version>
-        <commons-lang3-version>3.17.0</commons-lang3-version>
-        <commons-compress-version>1.27.1</commons-compress-version>
-        <commons-codec-version>1.18.0</commons-codec-version>
-        <commons-collections4-version>4.5.0-M3</commons-collections4-version>
-        <commons-fileupload2-version>2.0.0-M2</commons-fileupload2-version>
+        <jackson-version>2.19.2</jackson-version>
+        <batik-version>1.19</batik-version>
+        <commons-text-version>1.14.0</commons-text-version>
+        <commons-io-version>2.20.0</commons-io-version>
+        <commons-lang3-version>3.18.0</commons-lang3-version>
+        <commons-compress-version>1.28.1</commons-compress-version>
+        <commons-codec-version>1.19.0</commons-codec-version>
+        <commons-collections4-version>4.5.0</commons-collections4-version>
+        <commons-fileupload2-version>2.0.0-M4</commons-fileupload2-version>
         <commons-logging-version>1.3.5</commons-logging-version>
         <commons-math3-version>3.6.1</commons-math3-version>
         <maven-gpg-plugin-version>3.2.7</maven-gpg-plugin-version>
@@ -36,8 +36,8 @@
     <groupId>com.storedobject</groupId>
     <artifactId>so-pom21</artifactId>
     <name>SO POM (Java 21)</name>
-    <description>Parent POM for projects targeting Java 21</description>
-    <version>1.1.7</version>
+    <description>Parent POM for projects focusing on Java 21</description>
+    <version>1.1.8</version>
     <packaging>pom</packaging>
 
     <licenses>
