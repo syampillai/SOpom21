@@ -30,8 +30,8 @@
         <commons-fileupload2-version>2.0.0-M4</commons-fileupload2-version>
         <commons-logging-version>1.3.5</commons-logging-version>
         <commons-math3-version>3.6.1</commons-math3-version>
-        <maven-deploy-plugin-version>3.1.4</maven-deploy-plugin-version>
         <maven-gpg-plugin-version>3.2.7</maven-gpg-plugin-version>
+        <central-publishing-maven-plugin-version>0.9.0</central-publishing-maven-plugin-version>
     </properties>
 
     <groupId>com.storedobject</groupId>
@@ -56,13 +56,6 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
-
-    <distributionManagement>
-        <repository>
-            <id>ossrh</id>
-            <url>https://central.sonatype.com/api/v1/publishing/maven/releases</url>
-        </repository>
-    </distributionManagement>
 
     <developers>
         <developer>
@@ -150,9 +143,10 @@
 
                 <!-- Distribution -->
                 <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-deploy-plugin</artifactId>
-                    <version>${maven-deploy-plugin-version}</version>
+                    <groupId>org.sonatype.central</groupId>
+                    <artifactId>central-publishing-maven-plugin</artifactId>
+                    <version>${central-publishing-maven-plugin-version}</version>
+                    <extensions>true</extensions>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
