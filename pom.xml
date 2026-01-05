@@ -21,15 +21,6 @@
         <maven-dependency-plugin-version>3.8.1</maven-dependency-plugin-version>
         <jackson-version>3.0.3</jackson-version>
         <batik-version>1.19</batik-version>
-        <commons-text-version>1.14.0</commons-text-version>
-        <commons-io-version>2.20.0</commons-io-version>
-        <commons-lang3-version>3.18.0</commons-lang3-version>
-        <commons-compress-version>1.28.0</commons-compress-version>
-        <commons-codec-version>1.19.0</commons-codec-version>
-        <commons-collections4-version>4.5.0</commons-collections4-version>
-        <commons-fileupload2-version>2.0.0-M4</commons-fileupload2-version>
-        <commons-logging-version>1.3.5</commons-logging-version>
-        <commons-math3-version>3.6.1</commons-math3-version>
         <maven-gpg-plugin-version>3.2.7</maven-gpg-plugin-version>
         <central-publishing-maven-plugin-version>0.9.0</central-publishing-maven-plugin-version>
     </properties>
@@ -39,7 +30,7 @@
     <name>SO POM (Java 21)</name>
     <description>Parent POM for projects focusing on Java 21</description>
     <url>https://github.com/syampillai/${so-name}</url>
-    <version>1.1.12</version>
+    <version>1.1.13</version>
     <packaging>pom</packaging>
 
     <scm>
